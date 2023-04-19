@@ -53,6 +53,7 @@ spark-submit --packages org.apache.spark:spark-sql-kafka-0-10_2.12:3.1.2 consume
 ```
 * Execute the output.py program. This will take the data from the Kafka topic "output" and visualize it.
 ```
-python output.py
+python output_stream.py     # for stream data
+python output_batch.py      # for batch data 
 ```
 
